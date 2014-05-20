@@ -1,0 +1,8 @@
+# vim tmp files.
+*.swp
+
+# python generated files.
+*.pyc
+
+# executable.
+recursive
