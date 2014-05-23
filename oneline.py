@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-One-line shoutest version.
+One-line with exec() version.
+Shortest version, with only 98 characters.
 """
 
-(lambda n:list(map(lambda f:f(input()),[lambda y: print(sum(map(lambda x:int(x)**2 if x[0]!='-' else 0,input().split())))]*n)))(int(input()))
+exec('input();print(sum(map(lambda x:x*x if x>0 else 0,map(int,input().split()))));'*int(input()))
 
+# Python2 can be shorter, only 94 characters.
+#exec'input();print sum(map(lambda x:x*x if x>0 else 0,map(int,raw_input().split())));'*input()

@@ -16,8 +16,8 @@ For C:
 
 Solutions
 ---------
-- ``recursive.py``: Python version.
-- ``oneline.py``: Python with one-line version. (Sorry about the readability,
-  because it's ONE-LINE!)
+- ``recursive.py``: Python recursive version.
+- ``functional.py``: Python functional version.
+- ``oneline.py``: Python with one-line version. (Shortest)
 - ``recursive.c``: C version. You can compile it with ``make``.
 
