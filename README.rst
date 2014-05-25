@@ -5,7 +5,7 @@ Environment specification
 -------------------------
 For Python:
     - Python 3+.
-    - It can still run with Python2+, but the following changes need to be done:
+    - It can still run with Python2+, but the following changes need to be done.
         - Replace all ``input()`` to ``raw_input()``.
         - Add ``from __future__ import print_function()`` at the beginning
           of the file.
