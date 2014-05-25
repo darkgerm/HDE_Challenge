@@ -20,9 +20,15 @@ void sub_question(int times) {
     }
 }
 
-int main() {
+void run() {
     int times;
     if(scanf("%d", &times) != 1) exit(-1);
     sub_question(times);
+}
+
+#ifndef SHARED_LIB
+int main() {
+    run();
     return 0;
 }
+#endif  //SHARED_LIB

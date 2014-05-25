@@ -4,5 +4,6 @@
 # python generated files.
 *.pyc
 
-# executable.
+# executable and shared lib.
 recursive
+libchallenge.so

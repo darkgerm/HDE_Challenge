@@ -19,5 +19,7 @@ Solutions
 - ``recursive.py``: Python recursive version.
 - ``functional.py``: Python functional version.
 - ``oneline.py``: Python with one-line version. (Shortest)
+- ``ctypes_ver.py``: Python with ``ctypes`` module to call shared library
+  version. The shared library can be compiled with ``make``.
 - ``recursive.c``: C version. You can compile it with ``make``.
 
